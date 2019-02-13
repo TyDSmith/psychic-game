@@ -20,8 +20,11 @@ return alphabet[Math.floor(Math.random() * alphabet.length)];
 };
 
 var computerChoice = random();
+
+//display the correct letter 
 console.log(computerChoice)
 
+//track keypress input and run function of the game
 document.onkeypress = function(event) {
 
     var userGuess = event.key;
